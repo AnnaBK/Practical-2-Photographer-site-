@@ -1,0 +1,212 @@
+@media (max-width: 1024px) {
+    main .sections .container {
+        margin-bottom: 100px;
+    }
+
+    main .description-section .container .description-inner div:first-child h4 {
+        font-size: 20px;
+    }
+
+    main .price-section .container .price-group {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .header .container .navigation {
+        flex-wrap: wrap;
+        max-width: 300px;
+        justify-content: space-between;
+        row-gap: 20px;
+    }
+
+    main .sections .container {
+        margin-bottom: 70px;
+    }
+
+    main .sections .container h2 {
+        font-size: 48px;
+        margin: 0 0 50px 0;
+    }
+
+    main .intro-section .container .intro-text h1 {
+        font-size: 58px;
+    }
+
+    main .description-section .container .description-inner div:last-child {
+        max-width: 450px;
+    }
+
+    main .contact-section .contact-inner form {
+        gap: 20px;
+    }
+
+    main .contact-section .contact-inner form input,
+    main .contact-section .contact-inner form textarea {
+        width: 380px;
+    }
+
+    main .contact-section .contact-inner form button {
+        width: 380px;
+    }
+
+    .footer .container .social-links {
+        position: static;
+        transform: none;
+    }
+}
+
+@media (max-width: 600px) {
+    button {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .header .container .logo,
+    .footer .container .logo {
+        font-size: 30px;
+    }
+
+    .header .container .navigation {
+        max-width: 250px;
+    }
+
+    .header .container a {
+        font-size: 16px;
+    }
+
+    main .sections .container {
+        margin-bottom: 40px;
+    }
+
+    main .sections .container h2 {
+        font-size: 30px;
+        margin: 0 0 30px 0;
+    }
+
+    main .intro-section .container .intro-text h1 {
+        font-size: 48px;
+    }
+    
+    main .intro-section .container .intro-text p {
+        font-size: 18px;
+        margin: 20px 0 30px 0;
+    }
+    
+    main .intro-section .container .intro-text button {
+        margin-bottom: 30px;
+    }
+
+    main .description-section .container .description-inner {
+        flex-direction: column;
+    }
+
+    main .description-section .container .description-inner div:last-child {
+        max-width: 100%;
+    }
+
+    main .contact-section .contact-inner {
+        flex-direction: column;
+    }
+
+    main .contact-section .contact-inner .contact-photos {
+        width: 100%;
+    }
+
+    main .contact-section .contact-inner form {
+        width: 100%;
+        align-items: center;
+    }
+
+    .footer .container .social-links {
+        gap: 30px;
+    }
+
+    .footer .container a:last-of-type {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header .container {
+        align-items: start;
+    }
+
+    .header .container .navigation {
+        flex-direction: column;
+        order: 3;
+    }
+
+    .header .container > a {
+        margin-top: 20px;
+    }
+
+    main .intro-section .container .intro-text button {
+        font-size: 16px;
+    }
+
+    main .price-section .container .price-group .price-item {
+        width: 100%;
+    }
+
+    main .price-section .container .price-group .price-item .price-value p {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header .container > a {
+        margin-top: 0;
+    }
+
+    main .intro-section .container {
+        flex-direction: column;
+    }
+
+    main .intro-section .container .intro-text {
+        width: 100%;
+    }
+
+    main .intro-section .container .intro-image {
+        width: 100%;
+    }
+
+    main .price-section .container .price-group .price-item {
+        padding: 100px 10px 20px 10px;
+        height: fit-content;
+    }
+
+    main .price-section .container .price-group .price-item img {
+        width: 80%;
+    }
+
+    main .price-section .container .price-group .price-item table tr td {
+        font-size: 14px;
+    }
+
+    main .contact-section .contact-inner form input,
+    main .contact-section .contact-inner form textarea {
+        width: 280px;
+    }
+
+    main .contact-section .contact-inner form button {
+        width: 280px;
+    }
+
+    .footer .container {
+        flex-wrap: wrap;
+    }
+
+    .footer .container .logo {
+        font-size: 25px;
+    }
+
+    .footer .container a:last-of-type {
+        margin: auto;
+    }
+}

@@ -1,0 +1,469 @@
+@font-face {
+    font-family: Pacifico;
+    font-weight: 400;
+    src: url("./assets/fonts/Pacifico/Pacifico-Regular.ttf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-weight: 400;
+    src: url("./assets/fonts/Montserrat/static/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-weight: 500;
+    src: url("./assets/fonts/Montserrat/static/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-weight: 600;
+    src: url("./assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-weight: 700;
+    src: url("./assets/fonts/Montserrat/static/Montserrat-Bold.ttf");
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+p,
+a,
+h1,
+h2,
+h4,
+td {
+    font-family: Montserrat;
+}
+
+button {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(165, 36, 36, 1);
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(165, 36, 36, 1);
+    padding: 18px 39px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(165, 36, 36, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+
+/* Header and logo from footer*/
+
+.header {
+    padding: 30px 0 11px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.header .container .logo,
+.footer .container .logo {
+    font-family: Pacifico;
+    font-weight: 400;
+    font-size: 48px;
+    color: rgba(165, 36, 36, 1);
+    margin: 0;
+}
+
+.header .container .navigation {
+    display: flex;
+    gap: 50px;
+}
+
+.header .container a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: rgba(165, 36, 36, 1);
+}
+
+.header .container a:hover {
+    color: rgba(16, 16, 16, 1);
+}
+
+.header .container .navigation a {
+    color: rgba(16, 16, 16, 1);
+}
+
+.header .container .navigation a:hover {
+    color: rgba(165, 36, 36, 1);
+}
+
+/* Main */
+
+main .sections .container {
+    margin-bottom: 150px;
+}
+
+main .sections .container h2 {
+    font-weight: 700;
+    font-size: 64px;
+    color: rgba(35, 35, 35, 1);
+    margin: 0 0 50px 0;
+}
+
+main .sections .container h4 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    color: rgba(165, 36, 36, 1);
+}
+
+main .sections .container p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: rgba(35, 35, 35, 1);
+}
+
+/* Intro section */
+
+main .intro-section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+main .intro-section .container .intro-text {
+    width: 40%;
+}
+
+main .intro-section .container .intro-text h1 {
+    font-weight: 700;
+    font-size: 72px;
+    color: rgba(35, 35, 35, 1);
+    max-width: 450px;
+    margin: 0;
+}
+
+main .intro-section .container .intro-text p {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    color: rgba(16, 16, 16, 1);
+    margin: 20px 0 60px 0;
+}
+
+main .intro-section .container .intro-text button {
+    margin-bottom: 60px;
+}
+
+main .intro-section .container .intro-image {
+    width: 58%;
+    z-index: -10;
+}
+
+main .intro-section .container .intro-image img {
+    max-width: 100%;
+}
+
+/* Description section */
+
+main .description-section .container h2 {
+    margin-bottom: 45px;
+}
+
+main .description-section .container .description-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+main .description-section .container .description-inner div:first-child {
+    max-width: 377px;
+    /* padding: 49px 0 61px 99px; */
+    padding: 4% 0 5% 8%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+main .description-section .container .description-inner div:first-child::before {
+    max-width: 344px;
+    max-height: 561px;
+    width: 90%;
+    height: 100%;
+    box-shadow: 0 6px 10px 3px rgba(0, 0, 0, 0.05);
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -10;
+}
+
+main .description-section .container .description-inner div:first-child img {
+    max-width: 100%;
+}
+
+main .description-section .container .description-inner div:first-child h4 {
+    margin: 50px 0 0 0;
+}
+
+main .description-section .container .description-inner div:last-child {
+    max-width: 674px;
+}
+
+main .description-section .container .description-inner div:last-child h4 {
+    margin: 0 0 21px 0;
+}
+
+main .description-section .container .description-inner div:last-child p:last-of-type {
+    margin: 0 0 7px 0;
+}
+
+main .description-section .container .description-inner div:last-child .description-photo-wrap {
+    position: relative;
+    padding: 31px 0;
+}
+
+main .description-section .container .description-inner div:last-child .description-photo-wrap::before {
+    max-width: 567px;
+    max-height: 330px;
+    width: 90%;
+    height: 100%;
+    box-shadow: 0 6px 10px 3px rgba(0, 0, 0, 0.05);
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -10;
+}
+
+main .description-section .container .description-inner div:last-child .description-photo-wrap img {
+    max-width: 100%;
+}
+
+/* Portfolio section */
+
+main .portfolio-section .container .portfolio-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 19px;
+}
+
+main .portfolio-section .container .portfolio-group .portfolio-item {
+    max-width: 377px;
+}
+
+main .portfolio-section .container .portfolio-group .portfolio-item img {
+    width: 100%;
+}
+
+main .portfolio-section .container .portfolio-group .portfolio-item h4 {
+    margin: 20px 0 10px 0;
+    color: rgba(16, 16, 16, 1);
+}
+
+main .portfolio-section .container .portfolio-group .portfolio-item p {
+    margin: 0 0 20px 0;
+    color: rgba(16, 16, 16, 1);
+}
+
+main .portfolio-section .container .portfolio-group .portfolio-item button {
+    padding-left: 57px;
+    padding-right: 57px;
+}
+
+/* Price section */
+
+main .price-section .container .price-group {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+main .price-section .container .price-group .price-item {
+    width: 509px;
+    height: 467px;
+    margin-top: 103px;
+    padding: 187px 40px 25px 40px;
+    box-sizing: border-box;
+    box-shadow: 0 6px 10px 3px rgba(0, 0, 0, 0.05);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .price-section .container .price-group .price-item img {
+    position: absolute;
+    top: -103px;
+    left: 50%;
+    transform: translateX(-50%);
+    filter: drop-shadow(2px 4px 10px rgba(35, 35, 35, 0.15))
+}
+
+main .price-section .container .price-group .price-item h4 {
+    margin: 30px 0 25px 0;
+    font-size: 24px;
+    line-height: normal;
+}
+
+main .price-section .container .price-group .price-item table {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+main .price-section .container .price-group .price-item table tr td {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(35, 35, 35, 1);
+}
+
+main .price-section .container .price-group .price-item table tr td:last-of-type {
+    font-weight: 600;
+    text-align: end;
+}
+
+main .price-section .container .price-group .price-item .price-value {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+main .price-section .container .price-group .price-item .price-value p {
+    font-weight: 600;
+    font-size: 36px;
+    color: rgba(165, 36, 36, 1);
+    margin: 0;
+}
+
+main .price-section .container .price-group .price-item .price-value button {
+    padding-left: 47px;
+    padding-right: 47px;
+}
+
+/* Contact section */
+
+main .contact-section .contact-inner {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+main .contact-section .contact-inner .contact-photos {
+    display: flex;
+    align-items: center;
+    width: 52%;
+}
+
+main .contact-section .contact-inner .contact-photos img {
+    max-width: 100%;
+    width: 47%;
+    filter: drop-shadow(2px 4px 10px rgba(35, 35, 35, 0.15))
+}
+
+main .contact-section .contact-inner .contact-photos img:last-of-type {
+    position: relative;
+    left: -46px;
+    width: 54%;
+}
+
+main .contact-section .contact-inner form {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 40px;
+    width: 48%;
+}
+
+main .contact-section .contact-inner form input,  main .contact-section .contact-inner form textarea {
+    width: 476px;
+    box-sizing: border-box;
+    padding: 18px 20px;
+    border: solid 0.5px rgba(35, 35, 35, 0.85);
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: rgba(35, 35, 35, 1);
+}
+
+main .contact-section .contact-inner form input::placeholder,  main .contact-section .contact-inner form textarea::placeholder {
+    color: rgba(35, 35, 35, 0.35);
+}
+
+main .contact-section .contact-inner form textarea {
+    resize: none;
+}
+
+main .contact-section .contact-inner form button {
+    width: 476px;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Footer */
+
+.footer {
+    padding: 36px 0;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+.footer .container .social-links {
+    display: flex;
+    gap: 54px;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer .container .social-links a {
+    display: flex;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.footer .container .social-links a:hover {
+    filter: brightness(500%);
+}
+
+.footer .container a:last-of-type {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    color: rgba(165, 36, 36, 1);
+}
+
+.footer .container a:last-of-type:hover {
+    color: rgba(16, 16, 16, 1);
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./adaptive.css">
+    <title>Julie</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <p class="logo">Julie</p>
+            <nav class="navigation">
+                <a href="#description-title">Обо мне</a>
+                <a href="#portfolio-title">Портфолио</a>
+                <a href="#price-title">Цены</a>
+                <a href="#contact-title">Записаться</a>
+            </nav>
+            <a href="tel:+380961195404">+380 (96) 119 54 04</a>
+        </div>
+    </header>
+    <main>
+        <section class="sections intro-section">
+            <div class="container">
+                <div class="intro-text">
+                    <h1>Юлия Тюлькина</h1>
+                    <p>фотограф / видеооператор</p>
+                    <form action="#contact-title">
+                        <button>Записаться на фотоссесию</button>
+                    </form>
+                </div>
+                <div class="intro-image">
+                    <img src="./assets/img/intro-photo.svg" alt="photo">
+                </div>
+            </div>
+        </section>
+        <section class="sections description-section">
+            <div class="container">
+                <h2 id="description-title">Обо мне</h2>
+                <div class="description-inner">
+                    <div>
+                        <img src="./assets/img/about-first-photo.svg" alt="photo">
+                        <h4>Юлия Тюлькина</h4>
+                    </div>
+                    <div>
+                        <h4>Привет! Меня зовут Юля, я фотограф из Винницы</h4>
+                        <p>Занимаюсь фотографией более 2 лет. Люблю живые, естественные, теплые и эмоциональные кадры.
+                            Умею работать с такими инструментами как Photoshop, Lightroom.</p>
+                        <p>Фотография для меня - это способ показать прекрасное в простоте, то есть открыть занавес
+                            изящного и ненавязчивого. Видеосъёмка является чем-то по особенному ценным, ведь можно
+                            запечатлеть момент навсегда и при этом оставить отпечаток в истории.</p>
+                        <div class="description-photo-wrap"><img src="./assets/img/about-second-photo.svg" alt="photo"></div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sections portfolio-section">
+            <div class="container">
+                <h2 id="portfolio-title">Портфолио</h2>
+                <div class="portfolio-group">
+                    <div class="portfolio-item">
+                        <img src="./assets/img/portfolio-1.svg" alt="photo">
+                        <h4>Теплые фото у дома</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <button>Все фото</button>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="./assets/img/portfolio-2.svg" alt="photo">
+                        <h4>Утреняя видеосьемка</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis, natoque amet at
+                            hendrerit consectetur rhoncus.</p>
+                        <button>Все фото</button>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="./assets/img/portfolio-3.svg" alt="photo">
+                        <h4>Фотосессия с цветами</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis, natoque amet.</p>
+                        <button>Все фото</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sections price-section">
+            <div class="container">
+                <h2 id="price-title">Цены</h2>
+                <div class="price-group">
+                    <div class="price-item">
+                        <img src="./assets/img/price-1.svg" alt="photo">
+                        <h4>Фотосессия</h4>
+                        <table>
+                            <tr>
+                                <td>Продолжительность</td>
+                                <td>1 час</td>
+                            </tr>
+                            <tr>
+                                <td>Время обработки фото</td>
+                                <td>5 дней</td>
+                            </tr>
+                            <tr>
+                                <td>Количество фото</td>
+                                <td>20 штук</td>
+                            </tr>
+                        </table>
+                        <div class="price-value">
+                            <p>200 грн</p>
+                            <form action="#contact-title">
+                                <button>Заказать сейчас</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="price-item">
+                        <img src="./assets/img/price-2.svg" alt="photo">
+                        <h4>Видеосъемка</h4>
+                        <table>
+                            <tr>
+                                <td>Продолжительность</td>
+                                <td>1 час</td>
+                            </tr>
+                            <tr>
+                                <td>Время обработки фото</td>
+                                <td>5 дней</td>
+                            </tr>
+                            <tr>
+                                <td>Количество фото</td>
+                                <td>20 штук</td>
+                            </tr>
+                        </table>
+                        <div class="price-value">
+                            <p>300 грн</p>
+                            <form action="#contact-title">
+                                <button>Заказать сейчас</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sections contact-section">
+            <div class="container">
+                <h2 id="contact-title">Записаться к Юле</h2>
+                <div class="contact-inner">
+                    <div class="contact-photos">
+                        <img src="./assets/img/contact-photo1.svg" alt="photo">
+                        <img src="./assets/img/contact-photo2.svg" alt="photo">
+                    </div>
+                    <form action="">
+                        <input type="text" placeholder="Имя ...">
+                        <input type="email" placeholder="E-mail ...">
+                        <textarea name="" cols="40" rows="8" placeholder="Сообщение ..."></textarea>
+                        <button type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p class="logo">Julie</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/" target="_blank"><img src="./assets/img/instagram.svg" alt="instagram"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="./assets/img/facebook-app-symbol 2.svg" alt="facebook"></a>
+                <a href="mailto:julie@gmail.com" target="_blank"><img src="./assets/img/email.svg" alt="email"></a>
+            </div>
+            <a href="tel:+380961195404">+380 (96) 119 54 04</a>
+        </div>
+    </footer>
+</body>
+
+</html>
